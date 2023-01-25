@@ -11,13 +11,13 @@ For this practice problem, we have been given three CSV files: train, test and s
 - Train file will be used for training the model, i.e. our model will learn from this file. It contains all the independent variables and the target variable.
 - Test file contains all the independent variables, but not the target variable. We will apply the model to predict the target variable for the test data.
 
-## Steps that I followed :
->Firstly I import the test.csv and train.csv using pandas.read_csv()
+## Steps to follow :
+>import the test.csv and train.csv using pandas.read_csv()
 
 > Performed EDA 
 > Data Preprocessing i.e. missing data removal, onehotencoding
 
->Then i applied different machine learning models:
+>Then apply different machine learning models:
 -   Logistic Regression
 -   Random Forest
 -   SVC
